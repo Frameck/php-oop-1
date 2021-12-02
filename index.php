@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/classes/Movie.php";
+require_once __DIR__ . "./classes/Movie.php";
 
 ?>
 
@@ -12,7 +12,7 @@ require_once __DIR__ . "/classes/Movie.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Php classes</title>
-    <?php include_once __DIR__ . "/data/moviesList.php"; ?>
+    <?php include_once __DIR__ . "./data/moviesList.php"; ?>
 </head>
 <body>
     <main>
